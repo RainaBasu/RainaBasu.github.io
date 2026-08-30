@@ -322,7 +322,7 @@
         </div>
       </div>
       <ul class="project-list">
-        <li>Developed an LLM-based abstractive summarization pipeline generating movie plot summaries directly from full subtitle transcripts using Llama 3.1 and DeepSeek-R1.</li>
+        <li>Developed an LLM-based abstractive summarization pipeline generating movie plot summaries from full subtitle transcripts using Llama 3.1 and DeepSeek-R1 70B; fine-tuned both models via QLoRA (4-bit quantization + LoRA adapters) with SFT and custom prompt-masking to restrict loss computation to completion tokens, improving summarization quality over base models..</li>
         <li>Evaluated generated summaries against reference plots using ROUGE-1, ROUGE-2, ROUGE-L, and SummaC for quantitative comparison of semantic consistency and quality across models.</li>
       </ul>
     </div>
